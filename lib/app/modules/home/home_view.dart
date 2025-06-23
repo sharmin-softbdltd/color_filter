@@ -127,8 +127,8 @@ class HomeView extends GetView<HomeController> {
                     physics: NeverScrollableScrollPhysics(),
                     itemCount: controller.blendModeMap.length,
                     crossAxisCount: 4,
-                    crossAxisSpacing: 30,
-                    mainAxisSpacing: 30,
+                    crossAxisSpacing: kIsWeb? 30:10,
+                    mainAxisSpacing: kIsWeb? 30:15,
                     builder: (context, index) {
                       return Obx(() {
                         return InkWell(
@@ -201,7 +201,7 @@ class HomeView extends GetView<HomeController> {
                 ),
               ),
 
-              padding: EdgeInsets.symmetric(vertical: 15.0),
+              padding: EdgeInsets.symmetric(vertical: kIsWeb ? 15.0 : 8),
               child: Text(
                 modeName.capitalize!,
                 style: TextStyle(color: Color(0xFF383838)),
