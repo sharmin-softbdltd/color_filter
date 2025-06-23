@@ -114,7 +114,7 @@ class HomeView extends GetView<HomeController> {
                     decoration: BoxDecoration(
                       color: controller.selectedColor.value,
                       shape: BoxShape.circle,
-                      border: Border.all(color: Colors.black),
+                      border: Border.all(color: Colors.grey),
                     ),
                   ),
                 ),
@@ -126,7 +126,7 @@ class HomeView extends GetView<HomeController> {
                     shrinkWrap: true,
                     physics: NeverScrollableScrollPhysics(),
                     itemCount: controller.blendModeMap.length,
-                    crossAxisCount: 4,
+                    crossAxisCount: kIsWeb?4:2,
                     crossAxisSpacing: kIsWeb? 30:10,
                     mainAxisSpacing: kIsWeb? 30:15,
                     builder: (context, index) {
