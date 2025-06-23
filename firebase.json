@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "color-filter-7f59c",
+          "appId": "1:990621141740:android:292d574cb2959c21d973c9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "color-filter-7f59c",
+          "configurations": {
+            "android": "1:990621141740:android:292d574cb2959c21d973c9",
+            "ios": "1:990621141740:ios:d6c7ba3168992b13d973c9",
+            "macos": "1:990621141740:ios:d6c7ba3168992b13d973c9",
+            "web": "1:990621141740:web:1c54d5ddfeb234e6d973c9",
+            "windows": "1:990621141740:web:d8428f842f32b7cbd973c9"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "nam5",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "remoteconfig": {
+    "template": "remoteconfig.template.json"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}

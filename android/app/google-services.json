@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "990621141740",
+    "firebase_url": "https://color-filter-7f59c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "color-filter-7f59c",
+    "storage_bucket": "color-filter-7f59c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990621141740:android:292d574cb2959c21d973c9",
+        "android_client_info": {
+          "package_name": "com.example.image_editing"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaMdmLzOyg2zFN4KSv1Tnuhd8EHzfQxZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
